@@ -5,6 +5,6 @@
   </p>
 </div>
 
-Apenas para guardar resumos de assuntos da Computação
+Apenas para guardar resumos de assuntos Dev
 
 ![image](https://github.com/JVAS42/guia-de-sobrevivencia-dev/assets/61116930/1023e784-6792-491e-8140-8b217b2842c8)
