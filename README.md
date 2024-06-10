@@ -5,6 +5,8 @@
   </p>
 </div>
 
+LINK APRESENTAÇÂO: https://www.canva.com/design/DAGHrPQqSO0/LXZuaTx78f83tma5Is8Wzg/edit
+
 Apenas para guardar resumos de assuntos Dev
 
 ![image](https://github.com/JVAS42/guia-de-sobrevivencia-dev/assets/61116930/1023e784-6792-491e-8140-8b217b2842c8)
