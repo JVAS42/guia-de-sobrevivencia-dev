@@ -28,7 +28,7 @@
 ~ git add . || ~ git add <NOME_ARQUIVO> # Adicionar todos os arquivos modificados OU Adicionar o arquivo modificado
 ~ git commit -m "<BREVE COMENTÁRIO SOBRE A MODIFICAÇÃO>"
 ~ git remote # (OPCIONAL) Verificar o repositório
-~ git push origin main || ~ git push origin <NOME_BRANCH>
+~ git push origin main
 ```
 
 <h3 align="center"> Baixar commit(s) </h3>
@@ -63,7 +63,87 @@
 
 <h2 align="center"> Comandos Avançados </h2>
 
+<h3 align="center"> Criando e atualizando Branchs </h3>
 
+```bash
+🔴🟡🟢
+~ git branch <NOME_BRANCH> # Cria a branch
+~ git chekout <NOME_BRANCH> # Alterar para a branch || ~ git switch -c <NOME_BRANCH> # Cria e altera para a branch
 
+~ git push origin <NOME_BRANCH> # Subir alterações dessa branch
 
+~ git release main # Atualiza a branch com versão mais atualizada da `main`
+```
 
+<h3 align="center"> Excluir uma branch </h3>
+
+```bash
+🔴🟡🟢
+~ git branch -d <NOME_BRANCH> # Excluir uma branch
+```
+
+<h3 align="center"> Unir Branchs </h3>
+
+```bash
+🔴🟡🟢
+~ git merge <NOME_BRANCH> # Unir a nova branch com a main
+```
+
+<h3 align="center"> Histórico de commits </h3>
+
+<p align="center"> LOG </p>
+
+```bash
+🔴🟡🟢
+~ git log --oneline #Mostra todos os commits
+~ git log --p # Mostra commit com mais detalhes
+~ git log --graph # Mostra a linha do tempo dos commits
+~ git log --format "..." # Mostra commits detalhados
+~ git log --help # Ajuda sobre os comandos
+```
+
+##### SAIR DO LOG: tecla `Q`
+
+<p align="center"> DIFF </p>
+
+```bash
+🔴🟡🟢
+~ git log --oneline
+~ git log --p
+~ git log --graph
+~ git log --format "..."
+~ git log --help 
+```
+
+<p align="center"> DIFF </p>
+
+<h3 align="center"> Versões </h3>
+
+<p align="center"> STASH </p>
+
+```bash
+🔴🟡🟢
+~ git stash # Guarda estado
+~ git stash pod # Pega estado
+~ git stash list # Lista estados
+~ git stash clear # Limpa estado
+~ git stash push -m "<MENSAGEM>" # Lista commits
+```
+
+<p align="center"> RESTORE </p>
+
+```bash
+🔴🟡🟢
+~ git restore . || ~ git restore <NOME_ARQUIVO> # Restaurar código
+```
+
+<h3 align="center"> Gerando entregas </h3>
+
+```bash
+🔴🟡🟢
+~ git tag -a <NOME_VERSAO> -m "<COMMIT>" # Criar um tag da versão
+
+~ git tag -d <NOME_VERSAO> # Remover a tag da versão
+
+~ git push origin --tags || ~ git push origin --tags # Subir uma tag
+```
