@@ -5,6 +5,8 @@
   </p>
 </div>
 
-Apenas para guardar resumos de assuntos Dev
+ <p align="center">
+   📚💻 Central de Resumos & Comandos Úteis para Devs 🚀
+</p>
 
 ![image](https://github.com/JVAS42/guia-de-sobrevivencia-dev/assets/61116930/1023e784-6792-491e-8140-8b217b2842c8)
