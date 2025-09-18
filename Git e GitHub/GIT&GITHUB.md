@@ -28,7 +28,7 @@
 ~ git add . || ~ git add <NOME_ARQUIVO> # Adicionar todos os arquivos modificados OU Adicionar o arquivo modificado
 ~ git commit -m "<BREVE COMENTÁRIO SOBRE A MODIFICAÇÃO>"
 ~ git remote # (OPCIONAL) Verificar o repositório
-~ git push origin main
+~ git push origin main || ~ git push origin <NOME_BRANCH>
 ```
 
 <h3 align="center"> Baixar commit(s) </h3>
@@ -62,6 +62,7 @@
 ---
 
 <h2 align="center"> Comandos Avançados </h2>
+
 
 
 
