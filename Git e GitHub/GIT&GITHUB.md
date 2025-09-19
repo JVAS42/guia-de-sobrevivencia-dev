@@ -102,7 +102,7 @@
 ~ git log --help # Ajuda sobre os comandos
 ```
 
-##### SAIR DO LOG: tecla `Q`
+- SAIR DO LOG: tecla `Q`
 
 <p align="center"> DIFF </p>
 
@@ -114,8 +114,6 @@
 ~ git log --format "..."
 ~ git log --help 
 ```
-
-<p align="center"> DIFF </p>
 
 <h3 align="center"> Versões </h3>
 
@@ -147,3 +145,4 @@
 
 ~ git push origin --tags || ~ git push origin --tags # Subir uma tag
 ```
+
