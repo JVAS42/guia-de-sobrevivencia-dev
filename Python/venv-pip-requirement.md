@@ -59,6 +59,7 @@
 ```
 
 <h2 align="center"> 💡 Dicas Extras </h2>
+
 ```bash
 🔴🟡🟢
 ~ python --version            # Verifica a versão do Python
@@ -66,3 +67,4 @@
 ~ where python                # Mostra o caminho do Python (Windows)
 ~ which python                # Mostra o caminho do Python (Linux/Mac)
 ```
+
