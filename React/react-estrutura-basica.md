@@ -36,9 +36,7 @@ Este projeto tem como objetivo servir como guia prático para instalação do No
 
 ```bash
 🔴🟡🟢
-~ npm install
-	OU
-~ npm i
+~ npm run dev
 ```
 
 <p align="center"> Para encerrar o servidor: </p>
